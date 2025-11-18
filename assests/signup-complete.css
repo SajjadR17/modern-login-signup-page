@@ -173,7 +173,7 @@ form {
   align-items: center;
   margin: 100px auto;
   border: 1px solid #999;
-  width: 380px;
+  width: 350px;
   height: auto;
   padding: 20px;
   border-radius: 10px;
@@ -207,4 +207,10 @@ form a {
 form a:hover {
   transform: scale(1.05);
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 80%;
+  }
 }
