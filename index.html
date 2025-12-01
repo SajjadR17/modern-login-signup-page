@@ -15,12 +15,12 @@
   <body>
     <nav class="sajjad-nav">
       <div class="brand">
-        <img src="assests/favicon.png" alt="" />
+        <img src="assets/favicon.png" alt="" />
         <span class="logo">Sajjad</span><span class="accent">Dev</span>
       </div>
       <div class="tagline">Frontend Developer</div>
     </nav>
-    <form action="assests/login-complete.html" method="get">
+    <form action="assets/login-complete.html" method="get" class="form">
       <div class="form-right">
         <div class="logo">
           <h4>S</h4>
@@ -29,17 +29,20 @@
       </div>
       <div class="form-left">
         <h1>Login</h1>
-        <label for="Email">Email</label>
-        <input id="Pass" name="Email" type="email" required />
-        <label for="Pass">Password</label>
-        <input id="Pass" name="Password" type="password" required />
+        <label for="email">Email</label>
+        <input id="email" name="Email" type="text"/>
+        <div class="email-error"></div>
+        <label for="pass">Password</label>
+        <input id="pass" name="Password" type="password"/>
+        <div class="pass-error"></div>
         <a href=""><span>Forget password?</span></a>
         <button type="submit">Login</button>
         <span
           >Don't have an account?
-          <a href="assests/signup.html"><span>Sign Up</span></a></span
+          <a href="assets/signup.html"><span>Sign Up</span></a></span
         >
       </div>
     </form>
+    <script src="assets/script.js"></script>
   </body>
 </html>

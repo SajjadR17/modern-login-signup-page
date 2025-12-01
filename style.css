@@ -280,6 +280,23 @@ button:hover {
   cursor: pointer;
 }
 
+.input-error{
+  border: 1px solid red;
+}
+
+.error{
+  color: red;
+  font-size: 14px;
+}
+
+.pass-error{
+  display: none;
+}
+
+.email-error{
+  display: none;
+}
+
 @media (max-width: 768px) {
   .form-right .logo {
     display: none;
